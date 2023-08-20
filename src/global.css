@@ -1,3 +1,10 @@
+/**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 /**
@@ -32,4 +39,10 @@ html {
 body {
   padding: 0;
   line-height: inherit;
+}
+
+.backlight {
+  /*box-shadow: rgba(0, 197, 255, 0.24) 0px 1px 1px 0px inset, rgba(23, 184, 203, 0.25) 0px 50px 100px -20px, rgba(0, 196, 255, 0.3) 0px 30px 60px -30px;*/
+  box-shadow: rgba(76, 210, 21, 0.24) 0px 1px 1px 0px inset, rgba(51, 225, 21, 0.25) 0px 20px 120px -20px, rgba(0, 255, 73, 0.38) 0px 30px 60px -20px;
+
 }
